@@ -1,0 +1,37 @@
+table{
+    margin: 0 auto;
+}
+
+table td:nth-child(1){
+    position: relative;
+    right: 10%;
+}
+
+
+
+table input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 50%;
+    border-radius: 3px;
+}
+
+#submit{
+    position: relative;
+    left: 50%;
+    text-align: center;
+    padding: 2px 2px;
+    font-size: 15px;
+}
+
+/* input{
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    border: 2px solid lightgray;
+}
+table{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+} */

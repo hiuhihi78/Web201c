@@ -1,0 +1,97 @@
+header{
+    text-align: center;
+    background-color: rgb(126, 250, 250);
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(131, 131, 131,.5);
+}
+
+header nav a {
+    color: blue;
+    display: inline-block;
+    position: relative;
+    right: 16%;
+    margin-left: 25%;
+    font-size: 20;
+    padding-bottom: 20px;
+}
+
+
+.left{
+    background-color: rgb(126, 250, 250);
+    border-radius: 10px;
+    width: 20%;
+    float: left;
+    height: 450px;
+}
+.left form input{
+    margin-bottom: 7px;
+}
+
+.left p{
+    margin: 0;
+    font-size:17px;
+}
+.left ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.left ul li{
+    text-align: center;
+    list-style-type: none;
+    background-color: blue;
+    margin-bottom: 5px;
+    color: rgb(139, 129, 129);
+    width: 97%;
+    height: 20px;
+    font-size:16px;
+}
+
+.left ul li:hover{
+    background-color: rgb(139, 129, 129);
+    color: blue;
+}
+.left select{
+    margin-bottom: 10px;
+}
+
+.right{
+    background-color: rgb(126, 250, 250);
+    height: 450px;
+    border-radius: 10px;
+    width: 79%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.right p::first-line{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.right p{
+    margin-left: 20px;
+}
+
+.right ul li{
+    margin-left:40px;
+}
+
+
+footer{
+    clear: both;  
+    text-align: center; 
+    background-color: rgb(126, 250, 250); 
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

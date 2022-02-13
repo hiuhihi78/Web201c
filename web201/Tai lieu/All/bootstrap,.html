@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Table</h1>
+        <h3>Basic Table</h3>
+        <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>.table-striped</h3>
+        <h3>.table-bordered</h3>
+        <h3>.table-hover</h3>
+        <h1>images</h1>
+        <h3>.img-rounded</h3>
+        <h3>.img-circle</h3>
+        <h3>.img-thumbnail</h3>
+        <h2>responsive img</h2>
+        <h3>.img-responsive class applies display: block; and max-width: 100%; and height: auto; to the image:</h3>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+            style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+            Mouse Over Me</div>
+        <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+            style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+            Click Me</div>
+        <script>
+            function mOver(obj) {
+                obj.innerHTML = "Thank You"
+            }
+
+            function mOut(obj) {
+                obj.innerHTML = "Mouse Over Me"
+            }
+            function mDown(obj) {
+                obj.style.backgroundColor = "#1ec5e5";
+                obj.innerHTML = "Release Me";
+            }
+
+            function mUp(obj) {
+                obj.style.backgroundColor = "#D94A38";
+                obj.innerHTML = "Thank You";
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>

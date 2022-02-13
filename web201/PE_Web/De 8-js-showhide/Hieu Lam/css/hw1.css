@@ -1,0 +1,39 @@
+body{
+    font-size: 185%;
+}
+
+header{
+    background-color: rgba(151, 151, 151,.5);
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: yellow;
+}
+
+header nav a{
+    background-color: gray;
+    color: black;
+}
+
+.left{
+    display: none;
+}
+
+.right{
+    background-color: rgba(151, 151, 151,.5);
+}
+
+.right h2 {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.right table {
+    margin: 0 auto;
+}
+
+.right th{
+    background-color: rgba(243, 243, 16,.6);   
+}

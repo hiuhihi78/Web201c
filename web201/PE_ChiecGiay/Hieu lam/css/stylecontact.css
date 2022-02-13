@@ -1,0 +1,31 @@
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin: 0px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#fullName{
+    margin-left: 50px;
+}
+#phone{
+    margin-left: 85px;
+}
+
+#email{
+    margin-left: 86px;
+}
+
+#submit{
+    width:50px;
+    margin-left: 33%;
+}

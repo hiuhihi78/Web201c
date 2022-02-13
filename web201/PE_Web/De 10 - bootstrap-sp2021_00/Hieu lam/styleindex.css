@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(19, 18, 18,.9);
+}
+
+.dishes{
+    margin-top:20px;
+    
+}
+
+.dishes h2{
+    color: yellow;
+    text-align: center;
+    width: 92%;
+    margin: 0;
+}
+
+.dishes p{
+    color: white;
+    font-size: 17.5px;
+    text-align: justify;
+    width: 92%;
+    margin: 0;
+}
+
+#viewbutton{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#viewbutton input{
+    background-color: rgb(207, 48, 48);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+
+.footer{
+    background-color: rgb(156, 154, 154);
+    padding: 15px 0 0;
+    font-size: 20px;
+    color:white;
+    border-top: 1px solid yellow;
+    margin-top: 20px;
+}
+
+#listDishes{
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#listDishes th{
+    color: yellow;
+    text-align: center;
+}
+
+#listDishes caption{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+}
+
+#listDishes td,th{
+    border: 1px solid white;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#listDishes td:nth-child(2){
+    text-align: left;
+}
+
+#listDishes{
+    display: none;
+}
+
+
+#copyright{
+    text-align: center;
+}
+
+@media screen and (max-width: 992px){
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #viewfood{
+        color: white;
+        font-size: 20px;
+        padding: 0;
+    }
+    #copyright{
+        display: none;
+    }
+}

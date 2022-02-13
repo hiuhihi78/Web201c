@@ -1,0 +1,41 @@
+.product h2{
+    color: rgb(78, 78, 228);
+    font-size: 22px;
+}
+
+.product p{
+    color: red;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: rgba(117, 117, 117,.2);
+}
+
+.footer ul li{
+    list-style-type: none;
+}
+
+@media screen and (max-width: 992px){
+    /* body{
+        background-color: red;
+    } */
+
+
+    .item img{
+        height: 300px;
+    }
+
+    .imageBig {
+        width: 120%;
+    }
+    
+    .footer{
+        font-size: 20px;
+    }
+
+    .follow{
+        margin-bottom: 150px;
+    }
+
+}

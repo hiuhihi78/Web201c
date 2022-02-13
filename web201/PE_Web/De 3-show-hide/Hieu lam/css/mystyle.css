@@ -1,0 +1,82 @@
+header{
+    background-color: rgb(0,138,123);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: rgb(219, 105, 29);
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+nav a {
+    background-color: rgb(77, 184, 148);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 4%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.active{
+    background-color: rgb(255,204,164);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 5%;
+}
+
+.top{
+    text-align: center;
+    margin-top:10px;
+}
+
+.top img{
+    height: 220px;
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bottom{
+    font-family: sans-serif;
+}
+
+.bottom h2 {
+    color: rgb(35, 128, 145);
+}
+
+.bottom p{
+    font-size: 12px;
+}
+
+#showmore{
+    color: rgb(55, 155, 223);
+    font-weight: bold;
+}
+
+#team{
+    background-color: rgb(255, 145, 0);
+    width: 30%;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#team th{
+    background-color: rgb(223, 107, 41);
+}
+
+#myform{
+    background-color: rgba(255, 255, 0,.3);
+    display: inline-block;
+    width: 35%;
+    margin-left: 34%;
+    position: relative;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+}

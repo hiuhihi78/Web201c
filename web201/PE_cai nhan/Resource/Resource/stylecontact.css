@@ -1,0 +1,21 @@
+table{
+    margin: 0 auto;
+}
+
+label{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90%;
+    font-size: 15px;
+}
+
+#submit{
+    padding: 2px 4px;
+    position: absolute;
+    left: 54%;
+}

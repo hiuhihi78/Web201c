@@ -1,0 +1,110 @@
+.container {
+    background-color: rgba(44, 43, 43, 0.9);
+}
+
+.dishes {
+    margin-top: 30px;
+}
+
+.dishes .col-md-6 img {
+    height: 200px;
+}
+
+.dishes .col-md-6 h2 {
+    color: yellow;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.dishes .col-md-6 p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.buttonSellTable form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tableSellProduct caption {
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tableSellProduct {
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+
+.tableSellProduct th,
+td {
+    border: 1px solid white;
+}
+
+.tableSellProduct th {
+    color: yellow;
+    font-size: 16px;
+    text-align: center;
+}
+
+.tableSellProduct td:nth-child(1) {
+    width: 3    0%;
+    text-align: center;
+}
+
+.tableSellProduct td:nth-child(2) {
+    width: 70%;
+    text-align: left;
+}
+
+.footer {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+}
+
+.footer .col-md-7 {
+    font-size: 18px;
+    color: white;
+}
+
+.footer .col-md-5 {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .dishes .col-md-6 img {
+    height: 300px;
+    width: 100%;
+    }
+
+    .dishes .col-md-6 h2 {
+    margin-top: 10px;
+    }
+
+    .dishes .col-md-6 p {
+    font-size: 22px;
+    }
+
+    .buttonSellTable form input {
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    }
+
+    .tableSellProduct{
+        width: 98%;
+    }
+
+    .footer ul li {
+    font-size: 20px;
+    }
+}

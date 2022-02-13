@@ -1,0 +1,499 @@
+@font-face {
+    font-family: sans-serif;
+    src: url();
+}
+
+h1{
+    font-variant: small-caps;
+    color: aqua;
+    background-color: rgba(255,255,0,.1);
+}
+
+h1, p{
+    color: black;
+    /* line-height: 10000%; */
+}
+
+
+/* boder */
+.boder{
+    border: 1px solid black;
+    /* value khac: dotted,dashed,solid,double,groove, ridge,inset,outset,hidden; */
+}
+
+/* margin */
+.margin{
+    background-color: gray;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: block;
+    width: 50%;
+
+    /* magring to center */
+    margin : 0 auto;
+
+    /* margin-left: 100px;
+    margin-top: 100px; */
+
+    /* margin: 10px; all */
+
+    /* margin: 100px 20px; top bottom left right */
+
+    /* margin: 2px 1px 1px; top left bottom */
+
+    /* margin: 1px 1px 1px 1px; top right bottom left */
+}
+
+/* padding */
+.padding{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 25%;
+    padding-top: 50px;
+}
+
+.fuild h2{
+    text-align: center;
+}
+.fuild{
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+}
+
+/* .fuild div{
+    background-color: rgb(118, 118, 199);
+    width: 48%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 1%;
+} */
+
+.fuild div{
+    background-color: rgb(118, 118, 199);
+    width: 49%;
+    display: inline-block;
+}
+
+/* block la k cho khoi nao nam canh nhau */
+/* dung float xong nho dung cho block o duoi clear: both */
+
+/* 
+link: "a" 
+a: hover phai co sau khi co a:link
+a: :visited and a:active phai co sau a:hover */
+.link a{
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    background-color: gold;
+    width: 25%;
+    text-align: center;
+    text-decoration:  none;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+.link a:hover{ /*du con chuot den block the a*/
+    background-color: #B3B3B3;
+    color: #0006CC;
+}
+.link a:focus{ /*dung nut tab den the*/
+    background-color: #B3B3B3;
+    color: #0006CC;
+}
+
+.link a:active{ /*click vao se co hieu ung kem theo*/
+    border: 5px solid black;
+    background: #ff0000;
+}
+
+/* list */
+.list div{
+    display: inline-block;
+    width: 45%;
+    background-color: gray;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol, li{
+    list-style-image: url("");
+}
+
+
+/* selector */
+.selector{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    clear: both;
+    height: 50px;
+    text-align: center;
+}
+
+.selector a{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#current:hover{
+    background-color: #B3B3B3;
+    color: #0006CC;
+}
+
+/* linearGradient */
+.linearGradient{
+    margin-top: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+    background: linear-gradient(#00b7ea 0%, #d2e4e8 100%);
+}
+
+
+/* transitions - biến thiên khối với các thuộc tính tùy theo mk mong muốn*/
+.transitions{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 500px;
+    transition-property: color, width, background-color, border, border-radius;
+    transition-timing-function: linear; /*Xác định một hiệu ứng của quá trình chuyển đổi với cùng một tốc độ từ đầu đến cuối.*/
+    transition-delay: 0.5s;   /*Xác định thời gian chờ đợi trước khi các hiệu ứng của quá trình chuyển đổi sẽ bắt đầu.*/
+    transition-duration: 0.5s; /*thời gian tạo ra transitions*/
+}
+
+.transitions:hover{
+    background-color: #0006CC;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.transitions:active{
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+
+/* transitionPractive */
+.trainsitionsPractive a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 1s ease;
+}
+
+.trainsitionsPractive a:hover{
+    background-color: antiquewhite;
+    width: 200px;
+}
+
+.trainsitionsPractive a:focus{
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.trainsitionsPractive a:active{
+    display: none;
+}
+
+.animation{
+    background-color:green;
+    transition-property: width, height, transform;
+    transition-duration: 1s;
+    opacity: 0.5; /* sự mờ đục của background color*/
+}
+
+.animation:hover{
+    transform: rotate(100deg);
+    width: 110px;
+    height: 67px;
+    background-color: #B3B3B3;
+    opacity: 1; /* sự mờ đục của background color*/
+    background: linear-gradient(to bottom, #ff0000, #FFFFFF);
+}
+
+
+/* transform - dịch chuyển khối*/ 
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: #00b7ea;
+    transform: translate(220px,200px); /*giong margrin/ */
+    transform: scale(1,2); /*giống padding*/
+}
+
+/* position - xác định vị trí của khối */
+#test{
+    margin-top: 100px;
+}
+.position img{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    bottom: 100px;
+    left: 100px; 
+}
+
+
+
+/*
+-relative: Dùng để thiết lập một phần tử sử dụng các thuộc tính position (xem ở dưới) mà không làm ảnh hưởng đến việc hiển thị banđầu.
+-absolute: Dùng để thiết lập vị trí của một phần tử nhưng nó sẽ luôn nằm trong một phần tử mẹ đang là relative.
+-fixed: Hiển thị luôn đi theo trình duyệt khi cuộn trang, Ngoài ra thuộc tính z-index nhằm xác định cái nào ở trên cái nào ở dưới
+-static: Đưa phần tử về hiển thị theo kiểu mặc định. */
+
+
+/* vd: relative */
+/* .position p{
+    color: red;
+    position: relative;
+    bottom: 100px;
+} */
+
+/* vd: absolute với phần tử mẹ là .position */
+/* .position{
+    width: 500px;
+    height: 700px;
+    background-color: #B3B3B3;
+    margin: 0 auto;
+    position: relative;
+} */
+
+/* .position img{
+    right: 200px;
+    position: absolute;
+} */
+
+/* vd:fixed */
+/* .position img{
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    top: 135px;
+    left: 0px;
+    z-index: -10;
+} */
+
+/* styling table */
+table.Cal{
+    color: #06425c;
+    border-spacing: 0;
+    border-radius: 0 0 25px 25px;
+    border: 3px solid #000000;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+tr:nth-child(even){
+    background-color: #cdbb79;
+}
+
+.outMonth{
+    padding: 0;
+    margin: 0;
+    background-color: #51a39d;
+    color: rgba(0,0,0,.25);
+    background: url("https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.15752-9/195580988_358853682271345_3466615386190831302_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tufKOqOHNB0AX_V3EhN&tn=8ypL_KRuNexzRrQM&_nc_ht=scontent.fpnh22-2.fna&oh=78f6eca41138c2362323ebb33238034d&oe=61C5BA07");
+    border-spacing: 0;
+}
+
+span{
+    display: block;
+    text-align: center;
+    color: #800000;
+    visibility: hidden;
+}
+td:active>span{
+    visibility: visible;
+}
+
+
+/* Nav bar dropdown */
+.NavDropDown{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    width: 20%;
+    border-right: 1px solid black;
+    height: 50px;   
+    line-height: 50px; 
+    font-size:140%;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+
+nav li:last-child{
+    border-right: none;
+}
+
+nav li li{
+    border-right: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 15px;
+    transition: .5s background-color;
+}
+
+nav a:hover{
+    background-color: #005f5f;
+}
+
+nav a:active{
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
+}
+
+/* sub- menu */
+nav li li{
+    font-size: .8em;
+}
+
+nav > ul > li {
+    text-align: center;
+}
+
+nav > ul > li > a{
+    padding-left: 0;
+}
+
+nav li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+nav li ul li{
+    display: block;
+}
+
+
+/* javascript */
+.Event img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin-top: 10px;
+}
+
+.Event p{
+    background-color: gray;
+    color: white;
+    width: 200px;
+}
+
+.close{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+
+/* responsive design */
+
+/* Fluid Measurements
+    absolute measure
+        px (a dot of the display)(1/96 of 1inch)
+        pt : one point (1/72 of 1inch)
+        pc : one pica (= 12pt point)
+        mm,cm,in (milimeters, centimeters, inch)
+    relative measure
+        % : 
+        em : font size of element vd : font-size : 1.2 em
+        rem : fonr size of the root element  
+        vw : view width of the screen  VD : 1vw =  1/100 of the viewport width current in screen
+        vh : view height of the screen  VD : 1vh =  1/100 of the viewport height current in screen */
+
+
+/* media queries */
+
+/* How to import media queries
+    -use the @import rule
+        @import url(small.css) screen and (min-width: 600px) and (resolution: 163dpi);
+    -put media query directly into the style sheet
+        @media screen and(min-width: 600px){
+            
+        }
+    -include query in the link tag in html
+        <link rel="stylesheet" media="screen and (min-width: 600px)>" and (orientation: landscape)> */
+
+@media screen and (max-width: 1200px) {
+    body{
+        display: none;
+    }
+}
+
+
+/* bootstrap */
+    /* gird classes : lớp lưới chia màn hình thành 12 cột và 1 số hàng tùy theo
+        -Gird have:
+            + A container
+            + A row
+            + col-xx-yy (one or more column classes)
+            Vd:
+            <div class="container">
+                <div class="row">
+                    <div class="col-3md-6">
+                        
+                    </div>
+                </div>
+            </div>
+        -Setting class col-xx-yy 
+            + always start with "col"
+            + The "xx" component is the viewport size
+            _xs (for phones - screens less than 768px wide)
+            _sm (for tablets - screens equal to or greater than 768px wide)
+            _md (for small laptops - screens equal to or greater than 992px wide)
+            _lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+            + The "yy" component is the number of the columns from 0 - 12
+            VD:   <img src="" alt="" class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+                có thể <img src="" alt="" class="col-sm-6 col-md-3 col-lg-2"> bỏ đi col-xs-12 
+            + Position classes
+                _ default : all bootstrap put all thing far to the left it possible
+                _ push : vd col-xx-push-yy -> more YY columns to the right
+                _ pull : vd col-xx-pull-yy -> more YY columns to the left
+            + utility classes
+                _ hidden-xx : the content will only be hidden on the xx scren size
+                _ visible-xx : the content will only be visible on the xx scren size
+                _ sr-only : content hidden on all devices expected scren readeds */
+                    

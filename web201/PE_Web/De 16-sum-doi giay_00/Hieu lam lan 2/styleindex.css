@@ -1,0 +1,86 @@
+.title{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.title p{
+    color: grey;
+    font-size: 20px;
+}
+
+
+.shose-content{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(53, 51, 51,.5);
+    color: white;
+    width: 90%;
+    height: 30%;
+}
+
+.shose-content h3{
+    font-size: 22px;
+    margin-left: 2%;
+}
+
+.shose-content p{
+    font-size: 17px;
+    margin-left: 2%;
+}
+
+.combo-content{
+    background-color: gainsboro;
+}
+.combo-content img{
+    margin-bottom: 10px;
+}
+.combo-content p:nth-child(3){
+    margin: 0px;
+}
+
+.combo-content p:nth-child(4) del{
+    font-weight: bold;
+}
+
+
+.order-content{
+    background-color: gainsboro;
+    position: relative;
+    bottom: -45px;
+}
+.order-content img{
+    margin-bottom: 10px;
+}
+.order-content p:nth-child(3){
+    margin: 0px;
+}
+
+.order-content p:nth-child(4) del{
+    font-weight: bold;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:30px;
+}
+
+
+@media screen and (max-width:992px) {
+
+    img{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    
+    .shose-content{
+        width: 94%;
+    }
+
+    .footer{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+}

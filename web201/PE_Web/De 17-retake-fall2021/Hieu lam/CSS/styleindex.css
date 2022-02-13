@@ -1,0 +1,119 @@
+.header{
+
+}
+#text {
+    display: inline-block;
+    margin-left: 5%;
+    color: orange;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    bottom: -30px;
+}
+
+.header #logo img{
+    display:  inline-block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+#search-bar{
+    position: relative;
+    bottom: -30px;
+}
+
+#search-bar button{
+    background-color: black;
+    color: white;
+}
+
+#banner img{
+    width: 100%;
+}
+
+.menu{
+    width: 20%;
+    float: left;
+    background-color: black;
+    height: 74.5rem;
+  
+}
+
+.menu div a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+}
+
+.active{
+    background-color: aqua;
+}
+
+.menu div a:hover{
+    background-color: green;
+}
+
+
+.all-items{
+    width: 79%;
+    clear: both;
+    display: inline-block;
+}
+
+.all-items h1{
+    color: aqua;
+    margin: 0 ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.itime-firstLine{
+    width:  25%;
+    display: inline-block;
+    height: auto;
+    box-shadow: gray 1px 5px 5px 5px;
+    margin-left: 6%;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.itime-firstLine img{
+    width: 100%;
+}
+
+.itime-firstLine p {
+    color: red;
+}
+
+.itime-firstLine p del{
+    color: gray;
+}
+
+.itime-firstLine input{
+    width: 30%;
+    background-color: orange;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+
+.footer{
+    background-color: rgb(58, 163, 177);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}

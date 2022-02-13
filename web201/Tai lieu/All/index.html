@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascrip.js"></script>
+    <!-- 0. link rel:"icon" : icon anh cho tiêu đè trình duyệt -->
+    <link rel="icon" type="image/png"
+        href="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/258503558_257710806337346_1852842178853472161_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=BTF0XduAj5EAX9V9mbx&_nc_ht=scontent.fhan2-4.fna&oh=98302aa933f80c4dc86a8ea2868c02c3&oe=61C62099">
+    <!-- 1. title : hien thi noi dung web tren thanh tieu de trinh duyet -->
+    <title>Learning HTML CSS JavaScript</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body onload="loadFruits()">
+    <p>&nbsp;</p> 
+    <!-- 2. h : heading : hien thi noi dung tieu de -->
+    <h1>Hello 1</h1>
+    <h2>Hello 2</h2>
+    <h3>Hello 3</h3>
+    <h4>Hello 4</h4>
+    <h5>Hello 5</h5>
+    <h6 align="center">Hello 6</h6>
+    <!-- 3. p : paragraph : dung de ngat doan van va bat dau doan van moi -->
+    <p>Hello xin chao moi nguoi</p>
+    <!-- 4. br : break : ngat xuong dong -->
+    <p>Hello xin <br> chao moi nguoi</p>
+    <!-- 5. hr : : ke duong ngang trang -->
+    <hr align="center" width=100% height="1px">
+    <!-- 6. cac the dang van ban -->
+    This makes ur <u> text </u> underlined <br />
+    This is a <b> bold </b> man <br />
+    This is a <strong> Strong </strong> creature <br />
+    I stands for <i> italics </i> <br />
+    This will <em> emphasize </em> your text <br />
+    This will <mark> highlight </mark> your word <br />
+    This is a <small> small </small> island <br />
+    This is a <big> Big </big> river <br />
+    I want red color, not <del> green </del> <br />
+    Please insert <ins> THIS </ins> instead of THAT <br />
+    H<sub> 2 </sub> O <br />
+    x <sup> 3 </sup> <br />
+    I want red color, not <strike> green </strike> <br />
+    <!-- 7. img : image : chen mot hinh anh vao trang web
+    URL: tập tin hình cần chèn vào trang Web
+    Alt: chuỗi thay thế nếu hình không thể hiển 
+    Width, Height: chiều rộng, chiều cao (px). (mặc định)
+    Border: đường viền quanh hình -->
+    <img src="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.15752-9/195580988_358853682271345_3466615386190831302_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tufKOqOHNB0AX_V3EhN&tn=8ypL_KRuNexzRrQM&_nc_ht=scontent.fpnh22-2.fna&oh=78f6eca41138c2362323ebb33238034d&oe=61C5BA07"
+        alt="gai xinh" height="auto" width="auto">
+    <!-- 9. <audio> : Chèn một âm thanh vào trangWeb. Âm thanh này sẽ được phát mỗi khi người sử dụng mở trang Web. -->
+    <audio src="">Nhac hay</audio>
+    <!-- 10. marquee: Điều khiển đối tượng chạy một cách tự động trên trang Web -->
+    <marquee behavior="" direction="left">
+        <img src="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.15752-9/195580988_358853682271345_3466615386190831302_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tufKOqOHNB0AX_V3EhN&tn=8ypL_KRuNexzRrQM&_nc_ht=scontent.fpnh22-2.fna&oh=78f6eca41138c2362323ebb33238034d&oe=61C5BA07"
+            alt="gai xinh" height="50px" width="70px">
+    </marquee>
+    <!-- 11 . blockquote: Dùng phân cách một khối văn bản để nhấn mạnh, đoạ văn bản này được tách thành một paragraph riêng, thêm khoảng trắng trên và dưới đoạn đồng thời thụt vào so với lề  -->
+    <blockquote>
+        hiiii
+    </blockquote>
+
+    <!-- 12 address : hiển thị nội dung ở dạng địa chỉ cá nhân với các định dạng riêng. (thường đặt ở phần footer trang web) -->
+    <address id="address">
+        Le Duc Hieu <br>
+        xom 2 La Ting <br>
+    </address>
+
+
+    <div class="html5">
+        <br>
+        <br>
+        HTML5
+        <p>
+            • Cấu trúc HTML5 được chia theo ngữ cảnh (semantic) của
+            trang web <br>
+            Header: phần tiêu đề trang <br>
+            Nav: thanh Menu thể hiện các liên kết break
+            Section: nội dung <br>
+            aticle: nội dung chứa trong section <br>
+            Aside: nội dung độc lập Section <br>
+        </p>
+        <p>
+            GIỚI THIỆU FORM <br>
+            Thu thập thông tin tên, địa chỉ, số điện thoại, email, …để đăng ký cho người dùng vào một dich vụ hoặc một
+            sự kiện br
+            Tập hợp thông tin để mua hàng <br>
+            Thu thập thông tin phản hồi về một Website <br>
+            Cung cấp công cụ tìm kiếm trên websit <br>
+        </p>
+        <form action="dang ki">
+            <input type="text" name="ten_dang_nhap" value="ten" size="1" maxlength="20"> <br>
+            <!-- Name : định danh [txtten/txtpass/…] 
+        • Value: Dữ liệu ban đầu trong textbox 
+        • Size: chiều rộng của textbox (số ký tự: 20) 
+        • Maxlength: số ký tự tối đa có thể nhập vào text box -->
+            <input type="password" name="mk_dang_nhap" placeholder="nhap mat khau" maxlength="20" width="1000px"> <br>
+            <input type="submit" value="submit"> <br>
+
+            <input type="reset" value="reset"> <br>
+
+            <input type="radio" id="html" value="HTML" checked="checked">
+            <label for="html">HTML</label><br>
+
+            <input type="radio" id="css" value="CSS">
+            <label for="html">CSS</label><br>
+
+            <input type="checkbox" name="xinh"> xinh <br>
+            <input type="checkbox" name="xau" id="xau"> xau <br>
+
+            <input type="file" name="pic"> <br>
+
+            <input type="button" id="thong bao" onclick="alert('Helllo')" value="Click me!"> <br>
+
+            <!-- Min = “giá trị”
+        • Max = “giá trị”
+        • Autofocus
+        • Placeholder=“Chuỗi text”
+        • Required
+        • Step=“giá trị” -->
+
+            <input type="number" name="age" min="0" max="100" step="2" value="1"> <br>
+            <input type="email" placeholder="nhap emails"> <br>
+            <label for="namsinh">Ngay Sinh</label>
+            <input type="date" name="namsinh"> <br>
+            <select name="" id="">
+                <option value="1">Helllo</option>
+                <option value="2">ac</option>
+            </select> <br>
+
+            <!-- Name: tên Selection
+    • Size: là chiều cao của menu tính bằng hàng chữ
+    • Multiple: là thuộc tính cho phép chọn nhiều đề mục (listbox) • Selected: đề mục được chọn mặc định
+    • Value: xác định dữ liệu gởi cho server nếu đề mục được 
+    chọn -->
+            <label for="comment">Commnet</label>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            <!-- Rows: số dòng có thể nhập vào TextArea(mặc định là 4) 
+        •Cols: độ rộng của textarea (tính bằng số ký
+        tự, mặc định là 40) 
+        •Wrap: các dòng chữ tự động dàn ra trong lề -->
+        </form>
+        <!-- link bằng ảnh -->
+        <a
+            href="https://www.google.com/search?q=anh+dep&tbm=isch&source=iu&ictx=1&fir=rWKywkp5nRrJwM%252CWTWMiCsfg1N88M%252C_%253BthEY01e1PbTFwM%252CIBIP-ketyEyhCM%252C_%253B9ms_V1tQgqkRxM%252C0yM5gYwGfmwZyM%252C_%253BGvS0Qa0LySjLlM%252CcJuEtPNvEIEWwM%252C_%253B4MShbFZzDY0bVM%252CegPZkMn84D2LUM%252C_%253BDSEDxjdZ6ZnRJM%252CpyxrwFHKhb4ZmM%252C_%253Bl4oCPUWREubDwM%252Cwi8IsdaRTnlTdM%252C_%253BsWpclQpVCwLtqM%252CQBp5guTnuO5kkM%252C_%253BvUPQfwjlHXx5pM%252CiZA2z4pjbK1YkM%252C_%253B25yoZgpoG45jHM%252CP7R-ja0GaKuFlM%252C_%253Bi5CNBw8ATXpF7M%252CIYmYVSgG93xnpM%252C_%253Bc85eZZcjha0-JM%252ClYEvv41ZDgY4YM%252C_%253BCiOIvGLKfBudTM%252C-qSNPOe1c8Li7M%252C_&vet=1&usg=AI4_-kQu-gGTvBoVwtmcNUc0Ka9AwrHV1A&sa=X&sqi=2&ved=2ahUKEwjMu9vUjrP0AhW9HrkGHYQ_Cq4Q9QF6BAgDEAE#imgrc=rWKywkp5nRrJwM"><img
+                src="C:\Users\Admin\Desktop\web201\Re_SUM2021\images\24_Feb_2020_032059_GMTunnamed.jpg" alt=""></a>
+    </div>
+
+
+    <div>
+        <h2>Form chuan</h2>
+        <p>
+            - form là phàn tử chứa các loại phần tử input khác nhau như ... <br>
+            - input: <br>
+            + input type="text" <br>
+            + input type="radio" - nút lựa chọn <br>
+            + input type="checkbox" <br>
+            + input type="submit" - submit form<br>
+            + input type="button"
+        <p>Mỗi input cần có "name" attribute để submit. Nếu namethuộc tính bị bỏ qua, giá trị của trường đầu vào sẽ hoàn
+            toàn không được gửi.</p>
+        </p>
+
+        <h4>Ví dụ</h4>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+        <br>
+
+        <h4>Ví dụ radio button</h4>
+        <p>Choose your favorite Web language:</p>
+
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+        <br>
+        <h4>VÍ dụ checkbox</h4>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+        </form>
+        <br>
+        <h4>Ví dụ submit</h4>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+
+        <h2>attribute OF form</h2>
+        <p>
+            -action : Các actionthuộc tính định nghĩa các hành động được thực hiện khi biểu mẫu được gửi. <br>
+            -target : _blank,_self,_parent,_top,framename <br>
+        <form action="/action_page.php" target="_blank">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit"> <br>
+        </form>
+        </p>
+        <h2>Elemnt of formt</h2>
+        <p>
+            -input <br>
+            -lable : he for attribute of the <label> tag should be equal to the id attribute of the <input> element to
+                bind them together<br>
+                -select(dropdown list):
+                + selected
+                +size :Visible Values
+                <form action="/action_page.php">
+                    <label for="cars">Choose a car:</label>
+                    <select id="cars" name="cars" size="3">
+                        <option value="volvo" selected>Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <input type="submit">
+                </form>
+                -Multiple
+                <form action="/action_page.php">
+                    <label for="cars">Choose a car:</label>
+                    <select id="cars" name="cars" size="4" multiple>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select><br><br>
+                    <input type="submit">
+                </form>
+                <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+                -textarea
+                <textarea name="message" rows="10" cols="30">
+                    The cat was playing in the garden.
+                </textarea>
+                -button
+                <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+                -fieldset: element is used to group related data in a form.
+                +legend element defines a caption for the fieldset element.
+                <form action="/action_page.php">
+                    <fieldset>
+                        <legend>Personalia:</legend>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+                -datalist:The datalist element specifies a list of pre-defined options for an input element
+                <form action="/action_page.php">
+                    <input list="browsers" name="browser">
+                    <datalist id="browsers">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                    <input type="submit">
+                </form>
+                -output:he output element represents the result of a calculation.
+                <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    0
+                    <input type="range" id="a" name="a" value="50">
+                    100 +
+                    <input type="number" id="b" name="b" value="50">
+                    =
+                    <output name="x" for="a b"></output>
+                    <br><br>
+                    <input type="submit">
+                </form>
+        </p>
+        <h2>Input attribute</h2>
+        <p>button</p>
+        <input type="button">
+        <p>checkbox</p>
+        <input type="checkbox">
+        <p>color</p>
+        <input type="color">
+        <p>date</p>
+        <input type="date">
+        <p>datetime-local</p>
+        <input type="datetime-local">
+        <p>email</p>
+        <input type="email">
+        <p>file</p>
+        <input type="file">
+        <p>hidden</p>
+        <input type="hidden">
+        <p>img</p>
+        <input type="image">
+        <p>month</p>
+        <input type="month">
+        <p>number</p>
+        <input type="number">
+        <p>password</p>
+        <input type="password">
+        <p>radio</p>
+        <input type="radio">
+        <p>range</p>
+        <input type="range">
+        <p>reset</p>
+        <input type="reset">
+        <p>search</p>
+        <input type="search">
+        <p>submit</p>
+        <input type="submit">
+        <p>tel</p>
+        <input type="tel">
+        <p>text</p>
+        <input type="text">
+        <p>time</p>
+        <input type="time">
+        <p>url</p>
+        <input type="url">
+        <p>week</p>
+        <input type="week">
+
+
+
+    </div>
+    <!-- HTML Links - The target Attribute
+    By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+    The target attribute specifies where to open the linked document.
+
+    The target attribute can have one of the following values:
+
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window -->
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+    <!-- Create a Bookmark in HTML
+    Bookmarks can be useful if a web page is very long.
+    To create a bookmark - first create the bookmark, then add a link to it.
+    When the link is clicked, the page will scroll down or up to the location with the bookmark.     -->
+    <a href="#address">Jump to diachi</a>
+    <!--     
+    the video
+    The controls attribute adds video controls, like play, pause, and volume.
+    It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
+    The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+    The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element. -->
+    <video src="https://www.youtube.com/embed/elRI2TpBpkg">video</video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/elRI2TpBpkg" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+
+    <h1>Style h1 tag </h1>
+
+    <p class="boder"> hello day la phan css bo</p>
+
+    <div class="margin">
+        <p>margin</p>
+    </div>
+    <div class="padding">
+        padding
+    </div>
+
+    <!-- Fuild - set size relative to surrounding elements - đặt kích thước so với các yếu tố xung quanh -->
+    <div class="fuild">
+        <div>
+            <h2>Left side</h2>
+            <p>Here is content</p>
+        </div>
+        <div>
+            <h2>Right side</h2>
+            <p>Here is content</p>
+        </div>
+    </div>
+
+    <div class="link">
+        <a href="facebook.com">facebook</a>
+        <a href="w3school.com">w3school</a>
+        <a href="youtube.com">youtube</a>
+    </div>
+    <div class="list">
+        <div>
+            <h2>Unordered</h2>
+            <ul>
+                <li>Athens</li>
+                <li>Rome</li>
+                <li>London</li>
+                <li>Dublin</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Odered</h2>
+            <ol>
+                <li>Applens</li>
+                <li>Banana</li>
+                <li>Kumquats</li>
+                <li>Olives</li>
+            </ol>
+        </div>
+    </div>
+    <!-- selector -->
+    <div class="selector">
+        <a href="" id="current">home</a>
+        <a href="">youtube</a>
+    </div>
+
+    <div class="linearGradient">
+        <p>linearGradient</p>
+    </div>
+    <br>
+    <br>
+    <!-- transitions -->
+    <div class="transitions">
+        <a href="">Transitions - dịch chuyển biến thiên khối</a>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="trainsitionsPractive">
+        <a href="">A</a>
+        <a href="">B</a>
+        <a href="">C</a>
+        <a href="" class="animation">D</a>
+    </div>
+
+    <div class="transform">
+        transform
+    </div>
+    <br>
+    <br>
+
+    <p id="test">postion</p>
+    <div class="position">
+        <img src="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.15752-9/195580988_358853682271345_3466615386190831302_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tufKOqOHNB0AX_V3EhN&tn=8ypL_KRuNexzRrQM&_nc_ht=scontent.fpnh22-2.fna&oh=78f6eca41138c2362323ebb33238034d&oe=61C5BA07"
+            alt="">
+        <p>Postion</p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="StylingTable">
+        <table class="Cal">
+            <caption>Oct 2015</caption>
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Web</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th class="outMonth">27</th>
+                    <th class="outMonth">28</th>
+                    <th class="outMonth">29</th>
+                    <th class="outMonth">30</th>
+                    <th>1</th>
+                    <th>2*<span>Day dating</span></th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13*<span>Holiday</span></td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+
+            </thead>
+        </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="NavDropDown">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Picture</a>
+                    <ul>
+                        <li>2015</li>
+                        <li>2014</li>
+                        <li>2013</li>
+                    </ul>
+                </li>
+                <li><a href="">Recipes</a>
+                    <ul>
+                        <li>Appentizes</li>
+                        <li>Main</li>
+                        <li>Desserts</li>
+                    </ul>
+                </li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>JavaScript</h1>
+    <br>
+    <br>
+
+    <div class="Event">
+        <h2>Channing the style</h2>
+        <h3>JavaScript channing the style</h3>
+        <button type="button" onclick="openME()">Opne</button>
+        <button type="button" onclick="closeMe()">Close</button>
+        <img src="https://scontent.fpnh22-2.fna.fbcdn.net/v/t1.15752-9/195580988_358853682271345_3466615386190831302_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tufKOqOHNB0AX_V3EhN&tn=8ypL_KRuNexzRrQM&_nc_ht=scontent.fpnh22-2.fna&oh=78f6eca41138c2362323ebb33238034d&oe=61C5BA07"
+            class="index">
+        <p class="index">Gai xinh</p>
+    </div>
+
+    <br><br>
+
+    <h1>Array</h1>
+    <div>
+        <button onclick="myArray()">Adding your new fruist</button>
+        <p id="fruits">dad</p>
+    </div>
+    <!-- <body onload="loadFruits()>
+        <button onclick="myArray()">Adding your new fruist</button>
+        <p id="fruits">dad</p>
+    </body> -->
+    <div>
+        <h2>loop</h2>
+        <p id="numbers" script="loadNumber()"></p>
+        <button onclick="caculateAverage()">CaculateAverage</button>
+        <p id="avg"></p>
+    </div>
+
+    <div>
+        <h2>if else</h2>
+        <button onclick="enterName()">Enter your name!</button>
+        <p id="nameInput"></p>
+    </div>
+
+
+    <!-- form -->
+    <!-- có 3 tag dùng trong form
+    form - khai báo đây là 1 form
+    label - nhãn mác cho từng input với name cố định
+    input - khung cho phép ng dùng nhạp dữ liệu với nhiều validation khác nhau -->
+    <!-- 
+    input type attribute
+        textfield
+        email
+        password
+        radio
+        checkbox
+        submit
+            number
+            range
+            color
+            date
+            url -->
+    <div>
+        <h2>Form</h2>
+        <form action="customerInfo">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" value="Delete this paragraph"
+                    pattern="[0-9]{5}" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <br>
+                <label for="birth">Date of Birth</label>
+                <input type="date" id="birth" name="birth" placeholder="Enter your date">
+                <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="checkbox" id="haveGirlFriend" value="yes">
+                <label for="haveGirlFriend">I'm have girl friend</label>
+                <br>
+                <div id="inputNick">
+                    <label for=""><input type="checkbox" id="checkNickName" onchange="nickNameFuction()">Are you have
+                        NickName</label>
+                </div>
+                <br>
+                <label for="nickName">Enter your nickname</label>
+                <input type="text" id="nickName" placeholder="Enter your nick name"> <br>
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+        </form>
+    </div>
+
+    <br><br>
+    <div>
+        <form action="">
+            <h3>Checkbox</h3>
+            <label for=""><input type="checkbox" name="food" value="pizza">Pizza</label>
+            <br>
+            <label for=""><input type="checkbox" name="food" value="chips" checked="true">Chips</label>
+            <br>
+            <label for=""><input type="checkbox" name="food" value="Cola">Cola</label>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+
+    <div>
+        <form action="">
+            <h3>Checkbox</h3>
+            <label for=""><input type="radio" name="food" value="pizza">Pizza</label>
+            <br>
+            <label for=""><input type="radio" name="food" value="chips" checked="true">Chips</label>
+            <br>
+            <label for=""><input type="radio" name="food" value="Cola">Cola</label>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+
+    <style> 
+        input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        </style>
+</body>
+
+</html>

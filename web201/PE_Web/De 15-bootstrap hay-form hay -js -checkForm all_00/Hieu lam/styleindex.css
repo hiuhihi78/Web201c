@@ -1,0 +1,83 @@
+.welcomeAndSaleOff{
+    background-color: rgb(245, 157, 172);
+
+}
+
+.welcome{
+    padding-top: 10px;
+}
+
+.welcome p{
+    width: 70%;
+    font-size: 26px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome button{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.saleOff{
+    padding-bottom: 50px;
+}
+
+.saleOff img{
+    height: 500px;
+}
+
+.saleOff div:nth-child(2){
+    margin-right: 5%;
+}
+
+
+.newFowers{
+    background-color: pink;
+    padding-bottom: 10px;
+}
+
+.newFowers .col-md-3{
+    text-align: center;
+    background-color: white;
+    width: 22%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.footer{
+    background-color: #98c93c;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .saleOff{
+        text-align: center;
+    }
+
+    .saleOff img{
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .newFowers .col-md-3{
+        width: 90%;
+        margin-left: auto;    
+        margin-right: auto;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+}

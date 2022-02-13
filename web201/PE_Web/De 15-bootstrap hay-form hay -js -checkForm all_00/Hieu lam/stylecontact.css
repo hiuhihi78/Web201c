@@ -1,0 +1,22 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table label{
+    margin-right: 30px;
+}
+
+table input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:  80%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#submit{
+    padding: 4px 6px;
+    border-radius: 0;
+    margin-left:50%;
+}

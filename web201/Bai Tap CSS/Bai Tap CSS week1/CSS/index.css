@@ -1,0 +1,37 @@
+
+
+header {
+    background-color: rgb(167, 164, 164);
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header nav  a {
+    background-color: rgb(156, 156, 156);
+    color: black;
+}
+
+
+.left{
+    display: none;
+}
+
+.right{
+    background-color: gray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right h2{
+    color: rgb(23, 23, 138);
+    text-transform: uppercase;
+}
+
+.right a{
+    color: black;
+    background-color:rgb(156, 156, 156);
+}

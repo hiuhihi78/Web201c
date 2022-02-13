@@ -1,0 +1,47 @@
+header{
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 200%;
+}
+
+header h1{
+    color:yellow;
+    text-transform: uppercase;
+}
+
+header nav a{
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+}   
+
+.active:hover{
+    background-color: aqua;
+}
+
+.left{
+    display: none;
+}
+
+.right{
+    background-color: gainsboro;
+    font-size: 205%;
+}
+
+.right h2{
+    color: gray;
+    text-transform: uppercase;
+}
+
+.right table{
+    margin: 0 auto;
+    font-size: 90%;
+}
+
+.right tr th{
+    background-color: rgba(250, 250, 50,.5);
+}
+
+#myform{
+    display: none;
+}

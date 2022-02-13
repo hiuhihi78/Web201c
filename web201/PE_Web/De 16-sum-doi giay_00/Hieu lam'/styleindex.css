@@ -1,0 +1,138 @@
+
+
+
+.contentHeader{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contentHeader p{
+    color: grey;
+    font-size: 20px;
+}
+
+.shoesServiceContent{
+    background-color: rgba(22, 22, 22,.3);
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    width: 90%;
+    height: 30%;
+}
+
+.shoesServiceContent h3{
+    font-size: 20px;
+}
+
+.comboContent{
+    background-color: gainsboro;
+    padding-bottom: 3px;
+}
+.comboContent img{
+    padding-bottom: 20px;
+}
+
+.comboContent p{
+    margin-left: 5px;
+}
+
+.comboContent p:nth-child(3){
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comboConten p del{
+    color: black;
+}
+
+.orderContent{
+    background-color: gainsboro;
+    padding-bottom: 3px;
+}
+
+.orderContent img{
+    padding-bottom: 20px;
+}
+
+.orderContent p{
+    margin-left: 5px;
+}
+
+.orderContent p:nth-child(3){
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.orderContent p del{
+    color: black;
+}
+
+
+.footer{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+@media screen and (max-width: 992px){
+    .shoesService img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .shoesServiceContent{
+        width: 94%;
+        height: 25%;
+    }
+
+    .shoesService p{
+        font-size: 150%;
+        margin-left: 20px;
+    }
+
+    .shoesService h3{
+        font-size: 220%;
+        margin-left: 20px;
+    }
+
+    .comboContent{
+        margin-bottom: 40px;
+    }
+
+    .comboContent img{
+        width: 100%;
+    }
+
+    .comboContent p{
+        font-size: 150%;
+    }
+
+    .orderContent{
+        margin-bottom: 40px;
+    }
+
+    .orderContent img{
+        width: 100%;
+    }
+
+    .orderContent p{
+        font-size: 22px;
+    }
+
+    .orderContent p:nth-child(3){
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+
+    .footer{
+        font-size: 150%;
+    }
+
+    .footer h5{
+        font-size: 110%;
+    }
+}

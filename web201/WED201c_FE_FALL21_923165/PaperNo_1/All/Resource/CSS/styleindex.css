@@ -1,0 +1,136 @@
+.header{
+    height: 130px;
+}
+
+.header .menu{
+    width: 10%;
+    display: inline-block;
+    
+}
+
+.header .menu span{
+    font-size: 10px;
+}
+
+.header #logo-dell{
+    width: 73%;
+    display: inline-block;
+    text-align: center;
+}
+
+.header #logo-dell a img{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+#search-bar{
+    display: inline-block;
+}
+
+#search-bar form button{
+    background-color: black;
+    color: white;
+}
+
+
+#mySidenav{
+    background-color: #3a88ae;
+    color: yellow;
+    height: 100vh;
+    z-index: 10;
+    width: 15%;
+    display: none;
+}
+
+
+
+#bestSeller h1{
+    text-align: center;
+    color: red;
+}
+
+#bestSeller #images-seller{
+    display: inline-block;
+    width:45%;
+    margin-left: 3%;
+    box-shadow: gray 1px 5px 5px 5px;
+}
+
+#bestSeller #images-seller img{
+    width: 100%;
+
+}
+
+#bestSeller #content-seller{
+    display: inline-block;
+    width: 45%;
+    height: 425px;
+    margin-left: 4%;
+    position: absolute; 
+    box-shadow: gray 1px 5px 5px 5px;
+}
+
+#content-seller h2,p{
+    margin-left: 2%;
+}
+
+#content-seller h2{
+    color: #5da3e0;
+    font-size: 20px;
+}
+
+#content-seller p{
+    border-bottom: 1px dashed black;
+    font-size: 18px;
+}
+
+#Accessories h1{
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+}
+
+
+#Accessories #Accessories-first{
+    width: 45%;
+    box-shadow: gray 1px 5px 5px 5px;
+    margin-left: 3%;
+    display: inline-block;
+    height: 300px;
+}
+
+#Accessories-first img{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-right: 2%;
+}
+
+
+#Accessories-second{
+    width: 45%;
+    height: 300px;
+    box-shadow: gray 1px 5px 5px 5px;
+    float: right;
+    margin-right: 2%;
+
+}
+
+
+#Accessories-second img{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-right: 6%;
+}
+
+#footer{
+        background-color: #3a88ae;
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+}

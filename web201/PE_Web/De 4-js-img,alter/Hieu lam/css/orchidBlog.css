@@ -1,0 +1,79 @@
+header{
+    background-color: rgb(20, 167, 20);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+header nav ul{
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.row img{
+    width: 5%;
+    height: 100px;
+    margin-left: 2.4%;
+    margin-right:2.3%;
+}
+
+.howtogrow p::first-letter{
+    font-size: 30px;
+    font-weight: bold;      
+}
+
+.howtogrow p{
+    display: inline-block;
+    width: 15%;
+    float: left;
+    font-size: 19px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.aboutme form{
+    position: relative;
+    left: 45%;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: rgba(62, 231, 40,.4);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+footer p::first-letter{
+    font-size: 30px;
+    font-weight: bold;  
+    font-family: 'Times New Roman', Times, serif;    
+    text-transform: uppercase;
+}
+
+#frame{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#frame img{
+    width: 300px;
+    height: 300px;
+}
+

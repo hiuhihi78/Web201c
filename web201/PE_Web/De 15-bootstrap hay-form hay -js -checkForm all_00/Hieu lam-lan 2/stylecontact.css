@@ -1,0 +1,16 @@
+table{
+    margin: 0 auto;
+}
+
+table td label{
+    margin-right: 2vw;
+}
+
+table td input{
+    padding: 10px 10vw 10px 0px;
+}
+
+#send{
+    padding: 2px 5px;
+    margin-left: 30%;
+}
